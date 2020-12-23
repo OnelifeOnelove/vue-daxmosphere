@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "src/**/!(polyfills).{js,scss,vue}": [
-      "prettier --config ./.prettierrc --write",
+      "prettier --config ./.prettierrc.js --write",
       "git add"
     ],
     "src/**/!(polyfills).{js,vue}": [
