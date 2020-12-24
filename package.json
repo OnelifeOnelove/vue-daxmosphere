@@ -8,7 +8,8 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "format": "prettier --config ./.prettierrc.js --write 'src/**/!(polyfills).{js,scss,vue}'",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "analysis": "yarn build --report"
   },
   "config": {
     "commitizen": {
@@ -57,6 +58,7 @@
     "node-sass": "^4.12.0",
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.3.0"
   }
 }
