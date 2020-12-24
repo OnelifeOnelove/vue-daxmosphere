@@ -1,11 +1,12 @@
 const path = require('path')
+const isPro = 'production' === process.env.NODE_ENV
 
 function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
 module.exports = {
-  publicPath: '/',
+  publicPath: isPro ? '/vue-daxmosphere/' : '/',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: true,
