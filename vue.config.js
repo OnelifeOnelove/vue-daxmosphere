@@ -6,7 +6,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-  publicPath: isPro ? '/vue-daxmosphere/' : '/',
+  publicPath: isPro ? '/vue-daxmosphere' : '/',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: true,
