@@ -2,6 +2,7 @@
   "name": "vue-daxmosphere",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://OnelifeOnelove.github.io/vue-daxmosphere/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
